@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  background: #333;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  margin: auto;
+}
+.traffic {
+  width: 80px;
+  height: 80px;
+  margin: 10px 0;
+  background: #999;
+  border-radius: 50%;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: background 0.5s ease;
+}
+.traffic.green {
+  background: green;
+}
+
+.traffic.yellow {
+  background: yellow;
+}
+
+.traffic.red {
+  background: red;
+}
